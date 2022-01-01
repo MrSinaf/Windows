@@ -32,6 +32,9 @@ Sauf qu'a la place du titre, vous devez préciser le chemin de la prefab.
 1. UnityEngine
 2. TextMeshPro
 
+## Aides
+Si vous avez besoin d'aide à la compréhension, à son utilisation ou que vous vouliez que j'ajoute des fonctionnalités.
+Vous pouvez me contacter sur discord MrSinaf#0072, FRENCH ONLY !
+
 ## Copyright
-L'utilisation, la modification, le partage de ce plugin est autorisé à condition de préciser distinctement le créateur original en soit la Sinaf Production, comme suit:<br/>
-©SinafProduction - 2021, All rights reserved
+C'est toujours sympa de préciser, mais je vous laisse le droit de ne pas le faire.
