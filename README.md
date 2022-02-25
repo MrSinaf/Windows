@@ -18,12 +18,12 @@ WindowManager.CreateCustomWindow<Type>(<name>, <action>, <prefabPath>, out <wind
 
 Grâce à la sortie de la fenêtre via le dernier paramètre des deux méthodes, vous pouvez ensuite configurer à votre souhait votre fenêtre.
 Voici un exemple avec la fenêtre interne *QuestionWindow*:
-> ```csharp
-> WindowManager.CreateWindow<QuestionWindow>("WantQuit", WindowExist.Get, "Quitter l'application", out var window);
-> window.SetQuestion("Voulez-vous vraiment quitter l'application ?");
-> window.SetReponseA("Oui", () => Application.Quit());
-> window.SetReponseB("Non");
-> ```
+```csharp
+WindowManager.CreateWindow<QuestionWindow>("WantQuit", WindowExist.Get, "Quitter l'application", out var window);
+window.SetQuestion("Voulez-vous vraiment quitter l'application ?");
+window.SetReponseA("Oui", () => Application.Quit());
+window.SetReponseB("Non");
+```
 
 Les fenêtres customisés doivent dériver de la class *Window* et doivent avoir une prefab, la création de ce genre de fenêtre est similaire au fenêtre interne.
 Sauf qu'a la place du titre, vous devez préciser le chemin de la prefab.
